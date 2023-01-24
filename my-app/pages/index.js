@@ -121,9 +121,11 @@ export default function Home() {
           <div className={styles.description}>
             {tokenIdsMinted}/10 have been minted !
           </div>
+          {renderButton()}
           <div>
-            <Image className={styles.image} src="./LW3Punks/1.png" />
+            <img className={styles.image} src="./LW3Punks/1.png" />
           </div>
+          
         </div>
         <footer className={styles.footer}> Made with &#10084; by LW3Punks</footer>
       </div>
