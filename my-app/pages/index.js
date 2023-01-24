@@ -116,7 +116,7 @@ export default function Home() {
         <div>
           <h1 className={styles.title}>Welcome to LW3Punks!🧑🏻‍🎤</h1>
           <div className={styles.description}>
-            It's an NFT Collection built whilelearning on LearnWeb3DAO!👨🏼‍💻
+            It is an NFT Collection built whilelearning on LearnWeb3DAO!👨🏼‍💻
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/10 have been minted !
